@@ -139,12 +139,10 @@ print(f"{a} <= {b}: {a <= b}")
 a = True
 b = False
 
-# Logical operations
 and_result = a and b
 or_result = a or b
 not_result = not a
 
-# Print results
 print(f"True and False: {and_result}")
 print(f"True or False: {or_result}")
 print(f"Not True: {not_result}")
@@ -188,4 +186,5 @@ print(f"{a} & {b} = {and_result}")
 print(f"{a} | {b} = {or_result}")
 print(f"{a} ^ {b} = {xor_result}")
 print(f"{a} << 1 = {left_shift}")
+
 print(f"{a} >> 1 = {right_shift}")
